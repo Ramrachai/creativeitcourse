@@ -6,10 +6,12 @@
 5. Write a program Odd and Even Number using php loop.
 6. check if current year is leap year php. -->
 
+<h1>Home work by Ram: </h1>
+
 <h1>1. Factorial Program : </h1>
 <?php
 
-$factorial_input = 5;
+$factorial_input = 9;
 $factorial_result = 1;
 
 for ($i = $factorial_input; $i >= 1; $i--) {
@@ -22,7 +24,9 @@ echo "Factorial of <b> $factorial_input   is  $factorial_result </b>"
 <h1>2. Create Pattern </h1>
 
 <?php
-for ($i = 1; $i <= 10; $i++) {
+
+$how_many_stars = 20; 
+for ($i = 1; $i <= $how_many_stars; $i++) {
     for ($j = 1; $j <= $i; $j++) {
         echo " * ";
     }
@@ -62,7 +66,7 @@ function check_lenth($x) {
 }
 
 
-$string = "This is the string, I want to count it lenth"; 
+$string = "Check its lenth,, now ? "; 
 check_lenth($string);
 
 ?>
@@ -91,9 +95,9 @@ function odd($x) {
     }
 }
  
-even(50);
+even(25);
 echo "<br>"; 
-odd(50);
+odd(30);
 
 ?>
 
@@ -113,6 +117,6 @@ function leapyear_check($x) {
     }
 }
 
-leapyear_check(2021);
+leapyear_check(2024);
 
 ?>
